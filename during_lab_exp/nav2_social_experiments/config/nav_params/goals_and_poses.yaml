@@ -1,0 +1,164 @@
+passing:
+  robot_goal:
+    x: -2.7
+    y: 0.916
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v1_v2.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_3.U_3
+    #- U_1.U_1 #for passing_SFM_recovery_1 and DWA_social_costmap
+
+overtaking:
+  robot_goal:
+    x: -1.68
+    y: 1.03
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v1_v2.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1
+
+
+crossing1:
+  robot_goal:
+    x: -1.54
+    y: 0.75
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v3_v4.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1
+    - U_3.U_3
+
+crossing2:
+  robot_goal:
+    x: -1.54
+    y: 0.75
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v3_v4.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1
+    - U_3.U_3
+advanced1:
+  robot_goal:
+    x: -0.49
+    y: -3.76
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v5.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1
+    - U_3.U_3
+advanced2:
+  robot_goal:
+    x: -1.6
+    y: 0.10
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v6.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1
+    - U_2.U_2
+    - U_4.U_4
+advanced3:
+  robot_goal:
+    x: -1.72
+    y: 1.01
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v7_v8.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1
+    - U_2.U_2
+    - U_3.U_3
+advanced4:
+  robot_goal:
+    x: -1.72
+    y: 1.01
+  transforms:
+    - map_to_base_link:
+        child_frame_id: "base_link"
+        frame_id: "map"
+
+  map_file: /home/stefanoubuntu/social_evaluation_graphs/maps/test_v7_v8.yaml
+
+  robot_dynamics:
+    period_for_diff: 5
+    max_velocity: 0.5
+    max_angular_velocity: 0.5
+    alpha: 0.1
+
+  examined_people:
+    - U_1.U_1  
